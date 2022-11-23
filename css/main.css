@@ -103,6 +103,10 @@ body {
   color: var(--black);
   max-width: 1200px;
   margin: 0 auto;
+  background-color: var(--bd-gb);
+  background-image: url(../img/Group\ 10\ Copy.svg), url(../img/bg1.svg);
+  background-position: left 0px bottom 0px, right 0px top 0px;
+  background-repeat: no-repeat;
 }
 
 img {
@@ -172,6 +176,8 @@ img {
   line-height: 16px;
   text-transform: uppercase;
   padding: 15px 65px;
+  margin: 0 auto;
+  margin-top: 40px;
   letter-spacing: 1.5px;
   border-radius: 6px;
   border: transparent;
@@ -185,12 +191,8 @@ img {
   background-color: var(--bg-blue);
 }
 
-body {
-  background-color: var(--bd-gb);
-}
-
 /*HEADER*/
-.button {
+.button__header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -218,6 +220,7 @@ body {
   border-radius: 10px 0px 0px 10px;
 }
 .professional {
+  padding: 65px 30px;
   background-color: var(--bg-blue);
   border-radius: 10px;
 }
