@@ -101,7 +101,7 @@ ul {
 body {
   font-family: "Montserrat", "Arial", sans-serif;
   color: var(--black);
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -126,6 +126,7 @@ img {
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
+  padding-top: 70px;
   text-align: center;
   color: var(--text-color);
 }
@@ -163,4 +164,77 @@ img {
 }
 .text-black {
   color: var(--black);
+}
+
+.button {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  padding: 15px 65px;
+  letter-spacing: 1.5px;
+  border-radius: 6px;
+  border: transparent;
+}
+.button__white {
+  color: var(--bg-blue);
+  background-color: var(--white);
+}
+.button__blue {
+  color: var(--white);
+  background-color: var(--bg-blue);
+}
+
+body {
+  background-color: var(--bd-gb);
+}
+
+/*HEADER*/
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+/*INFORMATIONS*/
+.informations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  margin-top: 60px;
+}
+.informations__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 30px;
+}
+.basic {
+  background-color: var(--white);
+  border-radius: 10px 0px 0px 10px;
+}
+.professional {
+  background-color: var(--bg-blue);
+  border-radius: 10px;
+}
+.master {
+  background-color: var(--white);
+  border-radius: 0px 10px 10px 0px;
+}
+.informations__title {
+  margin-bottom: 25px;
+}
+.price {
+  width: 290px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid var(--text-color);
+}
+.info {
+  width: 290px;
+  padding: 12px 0;
+  border-bottom: 2px solid var(--text-color);
 }
